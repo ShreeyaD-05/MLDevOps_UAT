@@ -1,0 +1,5 @@
+services:
+  hello:
+    build: .
+    image: hello-mlops:latest
+    container_name: hello-mlops
